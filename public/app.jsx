@@ -1,4 +1,4 @@
-var Greeeter = React.createClass({
+var Greeter = React.createClass({
 	render: function() {
 		return (
 			<div>
@@ -10,6 +10,6 @@ var Greeeter = React.createClass({
 });
 
 ReactDOM.render(
-	<Greeeter/>,
+	<Greeter/>,
 	document.getElementById('app')
 );
